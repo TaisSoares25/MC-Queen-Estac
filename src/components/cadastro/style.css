@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.CadastroPage {
+  height:100vw;
+  height: 100vh;
+  background: var(--color-blue);
+  display: flex;
+  align-items: center;
+ 
+}
+
+.cadastro-box {
+  background: #6AD3F4;
+  padding: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; 
+  border-radius: 10px;
+  width: 1550px;
+  height: 850px;
+  margin: 150px 150px;
+}
+
+.cadastro-box h2{
+ color: white;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 32px;
+   
+}
+.cadastro-box label {
+  font-weight: bold;
+  color: black;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 2px;
+  margin-right:320px;
+}
+
+.cadastro-box input {
+    width:400px; 
+    height: 40px;
+    border-radius: 5px;
+}
+
+.btn-cadas{
+   padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:var(--color-green);
+    color: white;
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight:  bold;
+    border:none;
+}
+
+.btn :active {
+  background-color: #23f373;
+}

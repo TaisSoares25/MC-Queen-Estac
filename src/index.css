@@ -1,0 +1,18 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root{
+--color-blue:#16709B;
+--color-white:#FFF;
+--color-dark:#101821;
+--color-B_blue:#5FCBEE;
+--color-green:#0C8152;
+
+
+
+}

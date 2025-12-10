@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.loginPage {
+  height:100vh;
+  background: var(--color-blue);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+header {
+  padding-bottom: 20px;
+}
+
+.login-container {
+  background: #6AD3F4;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
+  display: flex; 
+  justify-content:space-between; 
+  align-items: center;
+  gap: 80px;
+  /* width: 1550px;
+  margin-left: 150px; */
+  
+ 
+}
+
+
+.login-box {
+  background:#16709B;
+  width: 100%;
+  max-width: 380px;
+  padding: 66px;
+  border-radius: 10px;
+  color: black;
+  margin-left: 260px;
+ 
+}
+
+.login-box h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.login-box label {
+  font-weight: bold;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  background: #dedede;
+  border: none;
+  border-radius: 6px;
+  margin: 6px 0 20px 0;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background: #0A7A36;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.linha-cadastro{
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+
+}
+.linha-cadastro p{
+  font-size: 13px;
+  margin-top: 10px;
+}
+.btn-cadastrar {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+   cursor: pointer;
+   margin-right: 300PX;
+   margin-top: 0px;
+
+}
+
+
+ .btn hover {
+  background: #086528;
+}
